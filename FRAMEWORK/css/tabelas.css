@@ -1,0 +1,44 @@
+h1{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#voltar{
+  position: absolute;
+  left: 91vh;
+  top: 10vh;
+  width: 150px;
+  border-radius: 19px;
+  padding: 5px;
+  border: solid 1px;
+  color: blueviolet;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: white;
+}
+
+table, td, th{
+  border: 1px solid black;
+}
+
+table{
+  position: absolute;
+  left: 73vh;
+  top: 15vh;
+  width: 500px;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 50px 10px;
+}
+
+td, th{
+  height: 50px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+th{
+  background-color: blueviolet;
+}
